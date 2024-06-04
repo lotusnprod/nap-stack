@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+../nap-web/deploy
+
+docker compose up --build -d
